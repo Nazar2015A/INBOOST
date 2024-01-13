@@ -1,0 +1,113 @@
+.react-flow__node-custom {
+    font-size: 10px;
+    width: 180px;
+    max-height: 180px;
+    background: #f5f5f6;
+    color: #222;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+    border-radius: 4px;
+    padding: 20px 3px 6px 3px;
+    background: #D1E7DD;
+
+  }
+  
+  .react-flow__node-custom .react-flow__handle {
+    opacity: 0;
+  }
+  
+  .react-flow__node.circle {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+  }
+  
+  .react-flow__node.annotation {
+    border-radius: 0;
+    text-align: left;
+    background: white;
+    border: none;
+    line-height: 1.4;
+    width: 225px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 15%), 0 2px 4px -1px rgb(0 0 0 / 8%);
+  }
+  
+  .react-flow__node.annotation .react-flow__handle {
+    display: none;
+  }
+  
+  .custom-node__header {
+    padding: 8px 10px;
+    background: #fff;
+    height: calc(60px - 20px);
+  }
+  
+  .custom-node__body {
+    max-height: 22px;
+    margin-top: 4px;
+    padding: 5px;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    border-radius: 4px; 
+    cursor: pointer;
+  }
+  .custom-node__body:hover {
+    outline: none;
+  }
+  
+  .custom-node__select {
+    position: relative;
+    width: 100%;
+    right: 5px;
+    padding-left: 10px;
+    background: #fff;
+    border: 1px;
+  }
+  
+  .custom-node__select select {
+    width: 100%;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .select-wrapper {
+    width: 100%;
+    background: #fff;
+  }
+  .select-el {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #EAF2FF;
+  }
+  .select-el input {
+    margin: 3px 12px 3px 0;
+    cursor: pointer;
+    width: 16px;
+    height: 16px;
+    padding: 2px;
+    border-radius: 2px;
+  }
+  .custom-node__select-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .icon-select {
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+  }
+  .icon-select svg {
+    width: 24px;
+    height: 24px;
+  }
+  .rotate {
+    transform: rotate(180deg);
+  }
